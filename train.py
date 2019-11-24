@@ -34,8 +34,8 @@ model = Model(inputs = VGG.input, outputs = FC_Head)
 
 print(model.summary())
 
-train_data_dir = '/Users/durgeshthakur/Desktop/finger_sign/train'
-validation_data_dir = '/Users/durgeshthakur/Desktop/finger_sign/test'
+train_data_dir = 'train'
+validation_data_dir = 'test'
 
 train_datagen = ImageDataGenerator(
                     rescale=1./255,
