@@ -4,7 +4,7 @@ from keras.preprocessing.image import ImageDataGenerator
 import numpy as np 
 import cv2
 
-model = load_model('/Users/durgeshthakur/Desktop/finger_sign/finger_sign.h5')
+model = load_model('finger_sign.h5')
 
 img_dim = 128
 
